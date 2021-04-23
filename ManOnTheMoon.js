@@ -4,7 +4,7 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"ManOnTheMoon_atlas_", frames: [[0,927,1416,876],[0,0,1496,925]]},
-		{name:"ManOnTheMoon_atlas_2", frames: [[1221,953,340,623],[879,953,340,623],[537,953,340,623],[0,0,1235,650],[968,1578,431,282],[0,1469,522,523],[1734,1267,169,296],[1932,935,24,578],[0,652,535,815],[1237,469,101,103],[1379,767,78,100],[524,1862,107,100],[1563,469,196,702],[537,652,840,299],[1761,469,267,464],[1761,935,169,330],[1379,469,169,296],[1563,1173,169,336],[1237,0,777,467],[524,1578,442,282],[1401,1801,536,221],[1401,1578,536,221]]}
+		{name:"ManOnTheMoon_atlas_2", frames: [[537,953,340,623],[879,953,340,623],[1221,953,340,623],[0,0,1235,650],[968,1578,431,282],[0,1469,522,523],[1734,1267,169,296],[1932,935,24,578],[0,652,535,815],[1237,469,101,103],[1379,767,78,100],[524,1862,107,100],[1563,469,196,702],[537,652,840,299],[1761,469,267,464],[1761,935,169,330],[1379,469,169,296],[1563,1173,169,336],[1237,0,777,467],[524,1578,442,282],[1401,1578,536,221],[1401,1801,536,221]]}
 ];
 
 
@@ -140,8 +140,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,2698,8101);
 
 
 
-(lib.CachedTexturedBitmap_25 = function() {
-	this.initialize(img.CachedTexturedBitmap_25);
+(lib.CachedTexturedBitmap_26 = function() {
+	this.initialize(img.CachedTexturedBitmap_26);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2610,1486);
 
@@ -299,7 +299,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,442,282);
 	this.initialize(mode,startPosition,loop,{});
 
 	// bg1
-	this.instance = new lib.CachedTexturedBitmap_25();
+	this.instance = new lib.CachedTexturedBitmap_26();
 	this.instance.parent = this;
 	this.instance.setTransform(-4.95,-14.9,0.5,0.5);
 
@@ -942,6 +942,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	}
 	this.frame_1 = function() {
 		playSound("_3sec");
+		playSound("_3sec");
 	}
 	this.frame_120 = function() {
 		playSound("space1");
@@ -1159,16 +1160,16 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedTexturedBitmap_1.png?1619170475790", id:"CachedTexturedBitmap_1"},
-		{src:"images/CachedTexturedBitmap_15.png?1619170475790", id:"CachedTexturedBitmap_15"},
-		{src:"images/CachedTexturedBitmap_2.png?1619170475790", id:"CachedTexturedBitmap_2"},
-		{src:"images/CachedTexturedBitmap_21.png?1619170475790", id:"CachedTexturedBitmap_21"},
-		{src:"images/CachedTexturedBitmap_22.png?1619170475790", id:"CachedTexturedBitmap_22"},
-		{src:"images/CachedTexturedBitmap_25.png?1619170475790", id:"CachedTexturedBitmap_25"},
-		{src:"images/ManOnTheMoon_atlas_.png?1619170475211", id:"ManOnTheMoon_atlas_"},
-		{src:"images/ManOnTheMoon_atlas_2.png?1619170475212", id:"ManOnTheMoon_atlas_2"},
-		{src:"sounds/_3sec.mp3?1619170475790", id:"_3sec"},
-		{src:"sounds/space1.mp3?1619170475790", id:"space1"}
+		{src:"images/CachedTexturedBitmap_1.png?1619170645367", id:"CachedTexturedBitmap_1"},
+		{src:"images/CachedTexturedBitmap_15.png?1619170645367", id:"CachedTexturedBitmap_15"},
+		{src:"images/CachedTexturedBitmap_2.png?1619170645367", id:"CachedTexturedBitmap_2"},
+		{src:"images/CachedTexturedBitmap_21.png?1619170645367", id:"CachedTexturedBitmap_21"},
+		{src:"images/CachedTexturedBitmap_22.png?1619170645367", id:"CachedTexturedBitmap_22"},
+		{src:"images/CachedTexturedBitmap_26.png?1619170645367", id:"CachedTexturedBitmap_26"},
+		{src:"images/ManOnTheMoon_atlas_.png?1619170644787", id:"ManOnTheMoon_atlas_"},
+		{src:"images/ManOnTheMoon_atlas_2.png?1619170644787", id:"ManOnTheMoon_atlas_2"},
+		{src:"sounds/_3sec.mp3?1619170645367", id:"_3sec"},
+		{src:"sounds/space1.mp3?1619170645367", id:"space1"}
 	],
 	preloads: []
 };
